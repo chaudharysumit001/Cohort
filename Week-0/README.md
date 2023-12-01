@@ -26,5 +26,5 @@
 
 # What we're Building
 
-# Zerodha Landing Page [HTML,CSS,JS]
-# Create a portfolio returns calculator
+1. Zerodha Landing Page [HTML,CSS,JS]
+2. Create a portfolio returns calculator
