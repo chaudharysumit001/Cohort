@@ -1,0 +1,125 @@
+body{
+    font-family: "Inter",serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.7;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color:#424242;
+}
+span{
+    background-color: #387ed1;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+span:hover{
+    background-color: #666;
+
+}
+li{
+    list-style: none;
+}
+a{
+    background-color: rgba(0,0,0,0);
+    color: #666;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+a:hover{
+    color: #387ed1;
+    cursor: pointer;
+}
+h1{
+    font-size: 2.75rem;
+    line-height: 1.25;
+    color: #424242;
+}
+h5{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #424242;
+}
+
+.header{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #eee;
+}
+
+.list{
+    display: flex;
+    padding: 5px;
+    gap: 40px;
+}
+.logo{
+    width: 120px;
+    height: 20px;
+    padding-top: 25px;
+}
+.landing{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    padding-top: 20px;
+    display: block;
+    text-align: center;
+}
+.data{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0) !important;
+    border-radius: 3px;
+    font-size: 20px;
+    padding:  10px 30px ;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #666;
+}
+.broker-image{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 150px;
+}
+.broker-content{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 10px;    
+}
+.item {
+    flex: 1 1 calc(50% - 10px); 
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #666;
+    font-size: 1rem;
+  }
+
+.img-eco{
+    display: flex;
+    justify-content: center;
+}
