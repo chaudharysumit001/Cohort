@@ -163,3 +163,16 @@ function calculateArithmetic(a,b,type){
 
  const data=calculateArithmetic(3,7,"subtraction");
  console.log(data);
+
+
+ function greet(){
+  console.log("Hello World");
+ }
+ function greetAlien(){
+  console.log("Hello Alien");
+ }
+//setTimeout - after 1 sec call greet function
+// call a function after some duration
+// setTimeout(greet,1*1000)
+setTimeout(greetAlien,3*1000)
+
