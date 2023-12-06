@@ -82,3 +82,28 @@ const user1 = {
 console.log(user1);
 console.log(user1.firstName);
 console.log(user1["gender"]);
+
+//Array of objects
+const allUsers = [
+  {
+    firstName: "Pranay",
+    gender: "male",
+  },
+  {
+    firstName: "Raman",
+    gender: "male",
+    metadata: {
+      age: 21,
+      address: "",
+    },
+  },
+  {
+    firstName: "Priya",
+    gender: "female",
+  },
+];
+for (let i = 0; i < allUsers.length; i++) {
+  if (allUsers[i].gender == "male") {
+    console.log(allUsers[i].firstName);
+  }
+}
