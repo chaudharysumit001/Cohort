@@ -47,3 +47,19 @@ for (let i = 0; i <= 1000; i++) {
   ans = ans + i;
 }
 console.log(ans);
+
+// Arrays
+
+const personArray = ["Pranay", "raman", "kirat"];
+
+console.log(personArray[0]);
+
+console.log(personArray);
+
+//print even no's
+const ages = [21, 22, 23, 24, 25];
+for (let i = 0; i < ages.length; i++) {
+  if (ages[i] % 2 == 0) {
+    console.log("Even No: ", ages[i]);
+  }
+}
