@@ -24,3 +24,8 @@
 2. WAP to print the biggest number in an arrays.
 3. WAP that prints all the male people's first name given a complex object.
 4. WAP that reverses all the elements of an array.
+
+
+1. Write a function that finds the sum of two numbers
+2. Write another function that displays this result in a pretty format.
+3. Write another function that takes this sum and prints it in passive tense.
