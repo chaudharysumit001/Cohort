@@ -63,3 +63,22 @@ for (let i = 0; i < ages.length; i++) {
     console.log("Even No: ", ages[i]);
   }
 }
+
+// const personsArray = ["Harkirat", "Raman", "priya"];
+// const genderArray = ["male", "male", "Female"];
+// for (let i = 0; i < personArray.length; i++) {
+//   if (genderArray[i] == "male") {
+//     console.log(personArray[i]);
+//   }
+// }
+
+//Objects
+
+const user1 = {
+  firstName: "Pranay",
+  gender: "male",
+};
+
+console.log(user1);
+console.log(user1.firstName);
+console.log(user1["gender"]);
