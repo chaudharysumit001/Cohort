@@ -1,4 +1,5 @@
 # Foundation Class
+
 # What we're learning
 
 1. Vscode
@@ -8,8 +9,8 @@
 5. DOM
 6. Assignments
 
-
 # What we're learning Practically
+
 # Basics
 
 1. Tags
