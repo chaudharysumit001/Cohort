@@ -19,3 +19,8 @@
 1. WAP to greet a person given their first and last name.
 2. WAP that greets a person based on their gender.(if/else)
 3. WAP that counts from 0-1000 and prints. (for loop)
+
+1. WAP to prints all the even numbers in an array.
+2. WAP to print the biggest number in an arrays.
+3. WAP that prints all the male people's first name given a complex object.
+4. WAP that reverses all the elements of an array.
