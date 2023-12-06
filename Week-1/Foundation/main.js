@@ -143,3 +143,23 @@ function displayResultPassive(data){
 // first approach
 const finalSum= sum(1,2,displayResult)
 // displayResult(finalSum)
+
+function calculateArithmetic(a,b,type){
+  if(type=="addition"){
+    const value=addition(a,b)
+    return value;
+  }
+  if(type=="subtraction"){
+    const value=subtraction(a,b)
+    return value;
+  }
+}
+ function addition(a,b){
+  return a+b;
+ }
+ function subtraction(a,b){
+  return a-b;
+ }
+
+ const data=calculateArithmetic(3,7,"subtraction");
+ console.log(data);
