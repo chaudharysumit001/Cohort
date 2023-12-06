@@ -29,3 +29,7 @@
 1. Write a function that finds the sum of two numbers
 2. Write another function that displays this result in a pretty format.
 3. Write another function that takes this sum and prints it in passive tense.
+
+1. Create a counter in JS (counts down from 30 to 0)
+2. Calculate the time it takes between a setTimeout call and the inner function actually running.
+3. Create a terminal click [HH:MM:SS]
