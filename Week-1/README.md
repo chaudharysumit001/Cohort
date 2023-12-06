@@ -20,7 +20,11 @@
 2. WAP that greets a person based on their gender.(if/else)
 3. WAP that counts from 0-1000 and prints. (for loop)
 
-1. WAP to prints all the even numbers in an array.
-2. WAP to print the biggest number in an arrays.
-3. WAP that prints all the male people's first name given a complex object.
-4. WAP that reverses all the elements of an array.
+4. WAP to prints all the even numbers in an array.
+5. WAP to print the biggest number in an arrays.
+6. WAP that prints all the male people's first name given a complex object.
+7. WAP that reverses all the elements of an array.
+
+8. Write a function that finds the sum of two Nos:
+9. Write another funtion that displays this result in a prettu format.
+10. Write another function that takes this sum and prints it in passive tense.
