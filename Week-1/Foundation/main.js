@@ -30,6 +30,13 @@ let firstName = "Pranay";
 let age = 24;
 
 //Boolean
-let isMarried = false;
+let isMarried = true;
 
 console.log("This Person name is " + firstName + " and their age is " + age);
+
+//if-else
+if (isMarried == true) {
+  console.log(firstName + " is married");
+} else {
+  console.log(firstName + " is not married");
+}
