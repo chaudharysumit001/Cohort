@@ -107,3 +107,17 @@ for (let i = 0; i < allUsers.length; i++) {
     console.log(allUsers[i].firstName);
   }
 }
+
+// Functions
+
+function findSum(a,b){
+  // Do things with the input and return an output
+  const sumValue=a+b
+  return sumValue;
+}
+// function calling
+var sum= findSum(1,34)
+console.log(sum);
+
+var sum2 = findSum(3,45)
+console.log(sum2);
