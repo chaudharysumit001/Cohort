@@ -116,8 +116,30 @@ function findSum(a,b){
   return sumValue;
 }
 // function calling
-var sum= findSum(1,34)
-console.log(sum);
+var sum1= findSum(1,34)
+console.log(sum1);
 
 var sum2 = findSum(3,45)
 console.log(sum2);
+
+
+// Callback functions
+
+function sum(num1,num2,fnToCall){
+  //fnTocall - function goes as an argument to function
+  let result= num1+num2;
+  fnToCall(result);
+}
+
+function displayResult(data){
+  console.log("Result of the sum is : "+ data);
+}
+
+function displayResultPassive(data){
+  console.log("Sum's result is : "+ data);
+}
+
+// You are only allowed to call one function after this
+// first approach
+const finalSum= sum(1,2,displayResult)
+// displayResult(finalSum)
