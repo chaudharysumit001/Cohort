@@ -107,3 +107,78 @@ for (let i = 0; i < allUsers.length; i++) {
     console.log(allUsers[i].firstName);
   }
 }
+
+// Functions
+
+function findSum(a,b){
+  // Do things with the input and return an output
+  const sumValue=a+b
+  return sumValue;
+}
+// function calling
+var sum1= findSum(1,34)
+console.log(sum1);
+
+var sum2 = findSum(3,45)
+console.log(sum2);
+
+
+// Callback functions
+
+function sum(num1,num2,fnToCall){
+  //fnTocall - function goes as an argument to function
+  let result= num1+num2;
+  fnToCall(result);
+}
+
+function displayResult(data){
+  console.log("Result of the sum is : "+ data);
+}
+
+function displayResultPassive(data){
+  console.log("Sum's result is : "+ data);
+}
+
+// You are only allowed to call one function after this
+// first approach
+const finalSum= sum(1,2,displayResult)
+// displayResult(finalSum)
+
+function calculateArithmetic(a,b,type){
+  if(type=="addition"){
+    const value=addition(a,b)
+    return value;
+  }
+  if(type=="subtraction"){
+    const value=subtraction(a,b)
+    return value;
+  }
+}
+ function addition(a,b){
+  return a+b;
+ }
+ function subtraction(a,b){
+  return a-b;
+ }
+
+ const data=calculateArithmetic(3,7,"subtraction");
+ console.log(data);
+ 
+ //setTimeout
+
+ function greet(){
+  console.log("Hello World");
+ }
+ function greetAlien(){
+  console.log("Hello Alien");
+ }
+//setTimeout - after 1 sec call greet function
+// call a function after some duration
+// setTimeout(greet,1*1000)
+setTimeout(greetAlien,3*1000)
+
+
+//setInterval function
+// log data every second
+
+setInterval(greetAlien,1*1000)
