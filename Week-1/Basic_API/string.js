@@ -68,7 +68,7 @@ function toUpper(str, seperator) {
 }
 toUpper("Hello world", " ");
 
-// 9. toLowerCase
+// 10. toLowerCase
 function toLowerCase(str, seperator) {
   console.log("Original String:", str);
   console.log("After toLowerCase:", str.toLowerCase(seperator));
