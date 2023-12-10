@@ -1,11 +1,11 @@
 // String Methods
 
 //1. length()
-function getLength(str) {
-  console.log("Original String:", str);
-  console.log("Length:", str.length);
-}
-getLength("Hello world");
+  function getLength(str) {
+    console.log("Original String:", str);
+    console.log("Length:", str.length);
+  }
+  getLength("Hello world");
 
 // 2. indexOf
 function findIndexOf(str, target) {
